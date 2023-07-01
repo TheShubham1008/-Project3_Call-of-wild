@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALL OF WILD</title>
+</head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gotu&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<style>
+    body {
+        font-family: 'Gotu', sans-serif;
+        color: azure;
+        margin: 0px;
+        padding: 0px;
+        background: url(w.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .left {
+        position: absolute;
+        left: 34px;
+        top: 20px;
+        display: inline-block;
+        /* border: 2px solid red;*/
+    }
+
+    .mid {
+        display: block;
+        width: 35%;
+        margin: 20px auto;
+
+        /*border: 2px solid rgb(47, 189, 62);*/
+    }
+
+    .right {
+        position: absolute;
+        right: 34px;
+        top: 20px;
+        display: inline-block;
+        /*border: 2px solid rgb(195, 201, 16);*/
+    }
+
+    .left img {
+        width: 71px;
+
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        color: aliceblue;
+        display: inline-block;
+    }
+
+    .navbar li a {
+        color: aliceblue;
+        text-decoration: none;
+        padding: 34px 23px;
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        text-decoration: underline;
+        color: lawngreen;
+    }
+
+    .btn {
+        font-family: 'Gotu', sans-serif;
+        margin: 0px 9px;
+        background-color: transparent;
+        color: aliceblue;
+        padding: 3px 4px;
+        border: 2px solid aliceblue;
+        border-radius: 10px;
+        font-size: 15px;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        border-color: lawngreen;
+        color: lawngreen;
+    }
+
+    .container {
+        border: 2px solid lawngreen;
+        margin: 93px 19px;
+        padding: 109px;
+        width: 20%;
+        border-radius: 32px;
+
+
+    }
+    .container2 {
+        border: 2px solid lawngreen;
+        margin: 93px 19px;
+        padding: 109px;
+        width: 20%;
+        border-radius: 32px;
+
+
+    }
+
+    .form-group input {
+        text-align: center;
+        display: block;
+        width: 202px;
+        padding: 7px;
+        border: 8px solid aliceblue;
+        margin: 13px auto;
+        font-size: 15px;
+        border-radius: 10px;
+        font-family: 'Gotu', sans-serif;
+    }
+
+    .container h1 {
+        text-align: center;
+    }
+
+    .container button {
+        display: block;
+        width: 41%;
+        margin: auto;
+
+
+
+    }
+
+    footer {
+        text-align: center;
+        padding: 3px;
+       
+        background-color: #142344;
+        color: white;
+    }
+
+    @import url('https://fonts.googleapis.com/css2?family=Gotu&display=swap');
+</style>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="logo.png" alt="">
+            <h3 style="color:lawngreen;"></h3>
+
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="blog.html">BLOGS</a></li>
+                <li><a href="contact.html">HELP</a></li>
+            </ul>
+
+
+        </div>
+        <div class="right">
+            <button class="btn">
+                
+                <a style="color:#fff" href="https://wa.me/9305148138">CALL US</a>
+                
+               
+            </button>
+            <button class="btn">EMAIL US</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>CALL OF WILD</h1>
+        <h3 style="text-align: center;">REGISTER</h3>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Your Age">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Your Gender">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Your Address">
+            </div>
+            <button class="btn">SUBMIT</button>
+        </form>
+    </div>
+   
+    <footer>
+        <p ><a href="#">Back to top</a></p>
+        <p>© 2020-2021 MATRIX, Inc. · <a href="privacy.html">Privacy</a> · <a href="terms.html">Terms</a></p>
+    </footer>
+
+</body>
+
+</html>
